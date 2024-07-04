@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>4 July Progress</title>
+  <link rel="icon" type="image/x-icon" href="favicon(1).ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+
+</head>
+<body>
+
+<h1 style="background-color:LightBlue; text-align:center;">Progress</h1>
+
+  <h2>Here are the new things I have learned on 2 July</h2>
+
+    <p>Such as forms with text input, radio buttons or checkboxes.</p>
+
+<h2>Text input fields:</h2>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="submit" value="Submit">
+
+</form>
+
+<h2>Radio buttons:</h2>
+<p>Choose your favorite drink:</p>
+
+<form>
+  <input type="radio" id="tea" name="fav_drink" value="Tea">
+  <label for="tea">Tea</label><br>
+  <input type="radio" id="coffee" name="fav_drink" value="Coffee">
+  <label for="coffee">Coffee</label><br>
+  <input type="radio" id="turnip" name="fav_drink" value="Turnip">
+  <label for="turnip">Turnip</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h2>Checkboxes:</h2>
+<p>Select hobbies that you are interested (You can choose more than one):</p>
+
+<form>
+  <input type="checkbox" id="hobbie1" name="hobbie1" value="VideoGame">
+  <label for="hobbie1"> Playing video games</label><br>
+  <input type="checkbox" id="hobbie2" name="hobbie3" value="Gokart">
+  <label for="hobbie2"> Gokarting</label><br>
+  <input type="checkbox" id="hobbie3" name="hobbie3" value="TableTennis">
+  <label for="hobbie3"> Table tennis</label><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<h2>The select element with pre-selected option:</h2>
+
+<form>
+  <label for="Teams">Choose a team:</label>
+  <select id="Teams" name="Teams">
+    <option value="select" selected>Select</option>
+    <option value="ferrari">Ferrari</option>
+    <option value="haas">Haas</option>
+    <option value="williams">Williams</option>
+    <option value="audi">Audi</option>
+  </select>
+  <input type="submit">
+</form>
+
+<h2>Textarea:</h2>
+
+<form>
+  <textarea name="message" rows="10" cols="30"></textarea>
+  <br><br>
+  <input type="submit">
+</form>
+
+<h2>The button Element:</h2>
+
+<button type="button" onclick="alert('You Lose :D')">Don't Click Here</button>
+
+<h2>The datalist Element:</h2>
+
+<p>Type food names</p>
+
+<form>
+  <input list="foods" name="foods">
+  <datalist id="foods">
+    <option value="Adana Kebab">
+    <option value="Lahmacun">
+    <option value="Doner Kebab">
+    <option value="Pasta">
+    <option value="Pizza">
+  </datalist>
+  <input type="submit">
+</form>
+
+<h2 style="text-align:center;">The output Element:</h2>
+<p style="text-align:center;">The output element represents the result of a calculation.</p>
+
+<form style="text-align:center;" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+<br><br>
+</form>
+
+</body>
+</html> 
+
